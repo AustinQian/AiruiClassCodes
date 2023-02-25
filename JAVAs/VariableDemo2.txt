@@ -1,0 +1,44 @@
+public class VariableDemo2{
+	public static void main(string[] args){
+   int num1 = 10;  //声明变量num1
+	System.out.println(num1);
+
+	num1 = 20;  //重新赋值
+	System.out.println(num1);
+	/*
+	int num1 = 30;  //这里表示重新声明一个num1这个变量
+	System.out.println(num1);
+	*/
+	/*
+	//2，没有初始化的变量，是不允许使用
+	int num2; //声明变量，没有赋值
+	System.out.println(num2);
+	*/
+	
+	/*3，在变量创建之前，不能被使用的
+	System.out.println(num3);
+	int num3 = 40;
+	*/
+	
+	//4，变量的使用范围，只在它的大括号中，超出范围，无法使用
+	//在Java中，大括号就是代码的生效范围
+	{
+	int num4 = 40;
+	System.out.println(num4);
+	System.out.println(num1);
+	}
+	//System.out.println(num4);  输出报错
+
+	//5,创建变量的时候，可以同时创建多个相同的类型变量
+
+	int a,b,c;
+	a = 100;
+	b = 200;
+	c = 300;
+	System.out.println(a +"--" + b + "--" + c);
+	
+	int x = 100, y = 200, z = 300;
+	System.out.println(x +"--" + y + "--" +z);
+
+  }
+}
