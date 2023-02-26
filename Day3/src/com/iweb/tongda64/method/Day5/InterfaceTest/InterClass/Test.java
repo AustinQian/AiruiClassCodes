@@ -12,5 +12,8 @@ public class Test {
         inner.method1();
         Outer.inner.method2();
         Outer.inner.method3(4);
+        //多态的写法
+
     }
+
 }
